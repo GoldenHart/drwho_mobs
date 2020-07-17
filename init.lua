@@ -26,6 +26,6 @@ mobs.intllib = S
 
 dofile(path .. "/cyberman.lua")
 dofile(path .. "/dalek.lua")
-dofile(path .. "/angel.lua")
+-- dofile(path .. "/angel.lua")
 
 print (S("[MOD] Doctor Who Mobs loaded"))
