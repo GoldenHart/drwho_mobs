@@ -23,9 +23,10 @@ else
 end
 mobs.intllib = S
 
+dofile(path .. "/tools/sonic.lua")
 
-dofile(path .. "/cyberman.lua")
-dofile(path .. "/dalek.lua")
--- dofile(path .. "/angel.lua")
+dofile(path .. "/mobs/cyberman.lua")
+dofile(path .. "/mobs/dalek.lua")
+-- dofile(path .. "mobs/angel.lua")
 
 print (S("[MOD] Doctor Who Mobs loaded"))
